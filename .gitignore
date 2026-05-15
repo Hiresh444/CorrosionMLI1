@@ -1,0 +1,16 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.ipynb_checkpoints/
+
+# Model artifacts
+*.pkl
+
+# Data outputs
+test_predictions.csv
+val_predictions.csv
+
+# IDE
+.vscode/
+.idea/
