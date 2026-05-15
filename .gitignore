@@ -4,12 +4,10 @@ __pycache__/
 *.pyo
 .ipynb_checkpoints/
 
-# Model artifacts
-*.pkl
-
-# Data outputs
-test_predictions.csv
-val_predictions.csv
+# NOTE: Model artifacts and prediction CSVs are committed for this project.
+# If you later want to treat them as generated outputs, re-add patterns like:
+#   *.pkl
+#   *_predictions.csv
 
 # IDE
 .vscode/

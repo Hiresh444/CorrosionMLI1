@@ -1,4 +1,5 @@
 """Script to generate the corrosion ML notebook using nbformat."""
+# pyrefly: ignore [missing-import]
 import nbformat as nbf
 
 nb = nbf.v4.new_notebook()
